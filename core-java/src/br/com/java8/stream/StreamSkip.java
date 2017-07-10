@@ -1,0 +1,11 @@
+package br.com.java8.stream;
+
+import java.util.Arrays;
+
+public class StreamSkip {
+	public static void main(String[] args) {
+		int[] array = {3,5,10,15,12,1,2};
+		Arrays.stream(array).skip(2)
+				.forEach(s -> System.out.println(s+" "));
+	}
+}
