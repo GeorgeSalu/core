@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import br.com.java8.stream.dto.Rectangle;
 public class SummaryStatisticsDemoWithObject {
 	public static void main(String[] args) {
+		
 		System.out.println("--DoubleSummaryStatistics--");
 		List<Rectangle> list = Rectangle.getRectangle();
 		DoubleSummaryStatistics dstats = list.stream()
