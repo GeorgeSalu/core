@@ -6,7 +6,7 @@ import java.io.PrintStream;
 
 public class PrintStreamDemo {
 	public static void main(String[] args) {
-		// Write data on console using PrintStream
+
 		PrintStream psConsole = new PrintStream(System.out);
 		try {
 			psConsole.write("Data to Write on Console using PrintStream".getBytes());
@@ -16,7 +16,7 @@ public class PrintStreamDemo {
 		psConsole.flush();
 		psConsole.close();
 
-		// Write data in file using PrintStream
+
 		PrintStream pwFile = null;
 		try {
 			pwFile = new PrintStream(new File("D:/cp/text.txt"));
